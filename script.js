@@ -29,12 +29,11 @@ document.getElementById('section--1');
 
 document.querySelector('.nav__links').addEventListener('click', function (e) {
   e.preventDefault();
-
+  
+  if(e.target.classList.conatains('external'){return;}
   if (e.target.classList.contains('nav__link')) {
     const id = e.target.getAttribute('href');
-    if(!e.target.classList.contains('external'){
     document.querySelector(id).scrollIntoView({ behavior: 'smooth' });
-    }
   }
 });
 
