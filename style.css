@@ -1,4 +1,4 @@
-/* The page is NOT responsive. You can implement responsiveness yourself if you wanna have some fun 😃 */
+
 
 :root {
   --color-primary: #5ec576;
@@ -575,6 +575,16 @@ h4 {
   display: block;
   margin: 0 auto;
   margin-bottom: 5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.footer__logo img{
+  width: 50px;
+  height: 50px;
 }
 
 .footer__copyright {
@@ -585,6 +595,7 @@ h4 {
 
 .footer__copyright .footer__link {
   font-size: 1.4rem;
+
 }
 
 /* MODAL WINDOW */
