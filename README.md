@@ -9,7 +9,7 @@ This project showcases lazy loading, intersection API and various web design pri
 
 ## How to run the Project
 
-Project is live on [*THIS LINK*](https://siddhart-singh.github.io/Bankist-Landing-Page/)
+Project is live at [*THIS LINK*](https://siddhart-singh.github.io/Bankist-Landing-Page/)
 
 ## How to use the Project
 
